@@ -3,9 +3,9 @@ package EasyWasy;
 public class BrukerEnhet {
 	
 	private int id;
-	private Behov behov;
+	private Sound behov;
 	
-	public BrukerEnhet(int id, Behov behov){
+	public BrukerEnhet(int id, Sound behov){
 		this.id = id;
 		this.behov = behov;
 	}

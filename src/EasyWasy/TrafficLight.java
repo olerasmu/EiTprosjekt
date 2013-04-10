@@ -1,6 +1,7 @@
 package EasyWasy;
 
 import java.awt.*;
+import javax.sound.*;
 import javax.swing.*;
 import java.awt.event.*;
 import javax.swing.border.*;
@@ -14,7 +15,7 @@ public class TrafficLight extends JFrame {
 
 	public TrafficLight(){
 		super("Traffic Light");
-		getContentPane().setLayout(new GridLayout(2,1));
+		getContentPane().setLayout(new GridLayout(1,1));
 		green.turnOn(false);
 		red.turnOn(true);
 		isRed = true;
@@ -48,7 +49,7 @@ public class TrafficLight extends JFrame {
 		return this.green;
 	}
 	
-	public boolean getSignal(){
+	public boolean isRedSignal(){
 		return isRed;
 	}
 }  
