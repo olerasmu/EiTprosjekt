@@ -16,7 +16,7 @@ public class Sound {
 	
 	public void fireSound() throws InterruptedException{
 		System.out.println("her er jeg fireSound()");
-		for (int i = 0; i < 10; i++) {
+		while  {
 			System.out.println("her er jeg i while");
 			java.awt.Toolkit.getDefaultToolkit().beep();
 			Thread.sleep(3000);
